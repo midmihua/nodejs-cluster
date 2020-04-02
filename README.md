@@ -8,6 +8,7 @@ ps | grep node
 ```
 ```shell script
 kill pid
+kill -s SIGUSR2 pid
 ```
 ```shell script
 curl localhost:3000
